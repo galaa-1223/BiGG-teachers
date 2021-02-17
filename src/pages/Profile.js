@@ -9,7 +9,7 @@ const Profile = () => {
     const dispatch = useDispatch();
 
     const logOut = () => {
-        dispatch(logout());
+        dispatch(logout()); 
     };
 
     return (
