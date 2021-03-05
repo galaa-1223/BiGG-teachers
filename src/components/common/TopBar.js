@@ -8,7 +8,7 @@ import AccountMenu from './AccountMenu';
 const TopBar = (props) => {
     return (
         <div className="top-bar">
-            <Breadcrumb />
+            <Breadcrumb pageName={props.pageName}/>
             {/* <Search /> */}
             <Notifications />
             <AccountMenu />
